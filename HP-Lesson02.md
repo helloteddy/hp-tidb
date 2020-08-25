@@ -110,17 +110,17 @@ Threads fairness:
 ```
 监控截图
 * TiDB Query Summary 中的 qps 与 duration
-![2134fc8a84e8f484d696f7b4004c7a65.png](evernotecid://13965CEC-8683-4BEC-8DB7-B696DE1F23B4/appyinxiangcom/26552848/ENResource/p660)
+![avatar](https://github.com/helloteddy/hp-tidb/blob/master/images/sysbench_select_01.png)
 * TiKV Details 面板中 Cluster 中各 server 的 CPU 以及 QPS 指标
 cpu
-![3b5b8147d97d124d597eb70570608e6d.png](evernotecid://13965CEC-8683-4BEC-8DB7-B696DE1F23B4/appyinxiangcom/26552848/ENResource/p661)
+![avatar](https://github.com/helloteddy/hp-tidb/blob/master/images/sysbench_select_02.png)
 QPS
-![8799b785ca3874b4b384a3b5c5de8d8a.png](evernotecid://13965CEC-8683-4BEC-8DB7-B696DE1F23B4/appyinxiangcom/26552848/ENResource/p662)
+![avatar](https://github.com/helloteddy/hp-tidb/blob/master/images/sysbench_select_03.png)
 
 * TiKV Details 面板中 grpc 的 qps 以及 duration
 qps(没有看到qps指标)
 duration
-![e3c0d5eb56b59fa53e5aa7d32a60c754.png](evernotecid://13965CEC-8683-4BEC-8DB7-B696DE1F23B4/appyinxiangcom/26552848/ENResource/p664)
+![avatar](https://github.com/helloteddy/hp-tidb/blob/master/images/sysbench_select_05.png)
 2. Update index 测试结果
 ```
 SQL statistics:
@@ -151,18 +151,18 @@ Threads fairness:
 ```
 监控截图
 * TiDB Query Summary 中的 qps 与 duration
-![44c1362bbd194936252f5fe3dc3d6390.png](evernotecid://13965CEC-8683-4BEC-8DB7-B696DE1F23B4/appyinxiangcom/26552848/ENResource/p665)
+![avatar](https://github.com/helloteddy/hp-tidb/blob/master/images/sysbench_update_01.png)
 
 * TiKV Details 面板中 Cluster 中各 server 的 CPU 以及 QPS 指标
 cpu
-![d20da3efb7fd0c5553a56053a7a2cfcd.png](evernotecid://13965CEC-8683-4BEC-8DB7-B696DE1F23B4/appyinxiangcom/26552848/ENResource/p667)
+![avatar](https://github.com/helloteddy/hp-tidb/blob/master/images/sysbench_update_02.png)
 qps
-![4a2cf3d0232be083085a767bc23219d6.png](evernotecid://13965CEC-8683-4BEC-8DB7-B696DE1F23B4/appyinxiangcom/26552848/ENResource/p668)
+![avatar](https://github.com/helloteddy/hp-tidb/blob/master/images/sysbench_update_03.png)
 
 * TiKV Details 面板中 grpc 的 qps 以及 duration
 qps(没有看到qps指标)
 duration
-![84a7f0be14da24638828f0615b5e0241.png](evernotecid://13965CEC-8683-4BEC-8DB7-B696DE1F23B4/appyinxiangcom/26552848/ENResource/p669)
+![avatar](https://github.com/helloteddy/hp-tidb/blob/master/images/sysbench_update_05.png)
 
 3. Read-only 测试结果
 ```
@@ -194,19 +194,19 @@ Threads fairness:
 ```
 监控截图
 * TiDB Query Summary 中的 qps 与 duration
-![4601f8d11c32238279394662ebb9d054.png](evernotecid://13965CEC-8683-4BEC-8DB7-B696DE1F23B4/appyinxiangcom/26552848/ENResource/p672)
+![avatar](https://github.com/helloteddy/hp-tidb/blob/master/images/sysbench_readonly_01.png)
 
 * TiKV Details 面板中 Cluster 中各 server 的 CPU 以及 QPS 指标
 cpu
-![d75e33fa16d6dd00da1b24b826e75f46.png](evernotecid://13965CEC-8683-4BEC-8DB7-B696DE1F23B4/appyinxiangcom/26552848/ENResource/p673)
+![avatar](https://github.com/helloteddy/hp-tidb/blob/master/images/sysbench_readonly_02.png)
 qps
-![60d7fdf605d25df628830875a9aa06f9.png](evernotecid://13965CEC-8683-4BEC-8DB7-B696DE1F23B4/appyinxiangcom/26552848/ENResource/p674)
+![avatar](https://github.com/helloteddy/hp-tidb/blob/master/images/sysbench_readonly_03.png)
 
 
 * TiKV Details 面板中 grpc 的 qps 以及 duration
 qps(没有看到qps指标)
 duration
-![dca6544cec45649a53a77a0862fe2dfa.png](evernotecid://13965CEC-8683-4BEC-8DB7-B696DE1F23B4/appyinxiangcom/26552848/ENResource/p675)
+![avatar](https://github.com/helloteddy/hp-tidb/blob/master/images/sysbench_readonly_05.png)
 
 #### 3.2 go-ycsb
 * go-ycsb 是 PingCAP 在雅虎开源的 ycsb 基础上用 golang 开发的数据
@@ -232,18 +232,18 @@ UPDATE - Takes(s): 837.5, Count: 499690, OPS: 596.6, Avg(us): 11629, Min(us): 46
 ```
 监控截图
 * TiDB Query Summary 中的 qps 与 duration
-![233ee16afcf96e52dd8a68f2a41b2a58.png](evernotecid://13965CEC-8683-4BEC-8DB7-B696DE1F23B4/appyinxiangcom/26552848/ENResource/p676)
+![avatar](https://github.com/helloteddy/hp-tidb/blob/master/images/go-ycsb_01.png)
 
 * TiKV Details 面板中 Cluster 中各 server 的 CPU 以及 QPS 指标
 cpu
-![79e42333eadbe43164f87e79713e74b5.png](evernotecid://13965CEC-8683-4BEC-8DB7-B696DE1F23B4/appyinxiangcom/26552848/ENResource/p677)
+![avatar](https://github.com/helloteddy/hp-tidb/blob/master/images/go-ycsb_02.png)
 qps
-![ee1b4f047afdb2a0da29979c7391c76e.png](evernotecid://13965CEC-8683-4BEC-8DB7-B696DE1F23B4/appyinxiangcom/26552848/ENResource/p678)
+![avatar](https://github.com/helloteddy/hp-tidb/blob/master/images/go-ycsb_03.png)
 
 * TiKV Details 面板中 grpc 的 qps 以及 duration
 qps(没有看到qps指标)
 duration
-![539371d553b9ac4e6143d41aff2d6b7e.png](evernotecid://13965CEC-8683-4BEC-8DB7-B696DE1F23B4/appyinxiangcom/26552848/ENResource/p679)
+![avatar](https://github.com/helloteddy/hp-tidb/blob/master/images/go-ycsb_05.png)
 
 #### 3.3 go-tpc
 * TPC-C 是专门针对联机交易处理系统（OLTP 系统）的规范，一般情况下 我们也把这类系统称为业务处理系统。1992年7月发布。
@@ -293,17 +293,17 @@ tpmC: 2136.7
 ```
 监控截图
 * TiDB Query Summary 中的 qps 与 duration
-![b06980ced016d6b1350705a099886cf2.png](evernotecid://13965CEC-8683-4BEC-8DB7-B696DE1F23B4/appyinxiangcom/26552848/ENResource/p680)
+![avatar](https://github.com/helloteddy/hp-tidb/blob/master/images/tpc-c_01.png)
 * TiKV Details 面板中 Cluster 中各 server 的 CPU 以及 QPS 指标
 cpu
-![2c71b6cc31edd3cec9113382b7b2d0a6.png](evernotecid://13965CEC-8683-4BEC-8DB7-B696DE1F23B4/appyinxiangcom/26552848/ENResource/p683)
+![avatar](https://github.com/helloteddy/hp-tidb/blob/master/images/tpc-c_02.png)
 qps
-![8b62f3c45434d3e5c5245349762688c3.png](evernotecid://13965CEC-8683-4BEC-8DB7-B696DE1F23B4/appyinxiangcom/26552848/ENResource/p684)
+![avatar](https://github.com/helloteddy/hp-tidb/blob/master/images/tpc-c_03.png)
 
 * TiKV Details 面板中 grpc 的 qps 以及 duration
 qps(没有看到qps指标)
 duration
-![38bfba1e6fe6258dcc31567ae563deed.png](evernotecid://13965CEC-8683-4BEC-8DB7-B696DE1F23B4/appyinxiangcom/26552848/ENResource/p685)
+![avatar](https://github.com/helloteddy/hp-tidb/blob/master/images/tpc-c_05.png)
 
 
 ###### 3.3.3.2 TPC-H
@@ -334,19 +334,19 @@ duration
 ```
 监控截图
 * TiDB Query Summary 中的 qps 与 duration
-![e99fc48e2e2e779e3a7d41fcfa9af049.png](evernotecid://13965CEC-8683-4BEC-8DB7-B696DE1F23B4/appyinxiangcom/26552848/ENResource/p687)
+![avatar](https://github.com/helloteddy/hp-tidb/blob/master/images/tpc-h_01.png)
 
 * TiKV Details 面板中 Cluster 中各 server 的 CPU 以及 QPS 指标
 cpu
-![8812393d8a9ac041f670a1063828702f.png](evernotecid://13965CEC-8683-4BEC-8DB7-B696DE1F23B4/appyinxiangcom/26552848/ENResource/p689)
+![avatar](https://github.com/helloteddy/hp-tidb/blob/master/images/tpc-h_02.png)
 qps
-![f32d468fca0e94215b6d7637b937c849.png](evernotecid://13965CEC-8683-4BEC-8DB7-B696DE1F23B4/appyinxiangcom/26552848/ENResource/p690)
+![avatar](https://github.com/helloteddy/hp-tidb/blob/master/images/tpc-h_03.png)
 
 
 * TiKV Details 面板中 grpc 的 qps 以及 duration
 qps(没有看到qps指标)
 duration
-![45ca2311b8004de8b93467006134e0e0.png](evernotecid://13965CEC-8683-4BEC-8DB7-B696DE1F23B4/appyinxiangcom/26552848/ENResource/p691)
+![avatar](https://github.com/helloteddy/hp-tidb/blob/master/images/tpc-h_05.png)
 
 
 ### 思考与分析
